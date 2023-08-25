@@ -26,7 +26,7 @@ const Computers = ({isMobile}) => {
       />
     </mesh>
   )
-}
+};
 
 const ComputersCanvas = () => {
   const [isMobile, setIsMobile] = useState(false);
@@ -74,6 +74,6 @@ const ComputersCanvas = () => {
 
     </Canvas>
   )
-}
+};
 
-export default ComputersCanvas
+export default ComputersCanvas;
